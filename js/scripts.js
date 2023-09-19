@@ -32,3 +32,31 @@ function showSlides() {
 }
 
 showSlides();
+
+const partnerImages = document.querySelectorAll('.partner-image');
+        const prevButton = document.getElementById('prevPartner');
+        const nextButton = document.getElementById('nextPartner');
+        let currentPartnerIndex = 0;
+
+        // Function to show the current partner image and hide others
+        function showCurrentPartner() {
+            for (let i = 0; i < partnerImages.length; i++) {
+                partnerImages[i].style.opacity = '0.5';
+            }
+            partnerImages[currentPartnerIndex].style.opacity = '1';
+        }
+
+        // Event listener for previous button
+        prevButton.addEventListener('click', () => {
+            currentPartnerIndex = (currentPartnerIndex - 1 + partnerImages.length) % partnerImages.length;
+            showCurrentPartner();
+        });
+
+        // Event listener for next button
+        nextButton.addEventListener('click', () => {
+            currentPartnerIndex = (currentPartnerIndex + 1) % partnerImages.length;
+            showCurrentPartner();
+        });
+
+        // Show the initial partner image
+        showCurrentPartner();
