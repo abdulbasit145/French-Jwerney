@@ -1,0 +1,232 @@
+.overlay {
+    position: absolute;
+    top: 149px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .overlay {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (max-width: 380px) {
+    .overlay {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.background {
+    background-image: url(http://www.fjweb.org/wp-content/uploads/2022/04/dubai-fjweb-colonie.webp);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-text i {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.icon-text div h3 {
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-align: left;
+    word-spacing: 0px;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #555555;
+}
+
+.icon-text div p {
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none solid rgb(154, 154, 154);
+    text-align: left;
+    word-spacing: 0px;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #9A9A9A;
+}
+
+.map-container{
+    margin-bottom: 40px;
+    cursor: grab;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.custom-nav-link.active {
+    background-color: rgb(244, 68, 68);
+    color: white;
+    border-radius: 5%;
+}
+
+.custom-nav-link:hover {
+    background-color: rgb(245, 54, 54);
+    color: white;
+}
+
+table {
+    margin-top: 20px;
+    border: none;
+}
+
+.table caption {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: left;
+    font-size: 16px;
+}
+
+.table ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.table li::before {
+    content: "✓";
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    left: 0;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+    padding: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 240px; 
+    max-width: 100%;
+    height: 426px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.image-container:hover img {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    transform: scale(1.1);
+
+}
+
+.reg-heading {
+    text-align: center;
+    padding: 20px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    background-color: #ee0a69;
+    border-radius: 5px;
+}
+
+h6 {
+    padding: 10px;
+    font-weight: 900;
+}
+
+#similar-stays {
+    margin-bottom: 60px;
+}
+
+
+.helper {
+    margin-bottom: 40px;
+}
+.test {
+    border-left: 2px solid black;
+    margin-top: 25px;
+}
+
+.box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+.box-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box-content {
+    text-align: center;
+}
+
+.box-content h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.btn-box {
+    background-color: #ee0a69;
+    width: 50%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 15px;
+}

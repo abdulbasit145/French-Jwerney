@@ -1,0 +1,118 @@
+.gradient-background {
+    background: linear-gradient(180deg, #ff5757, #d4e4f4);
+    padding: 50px;
+}
+
+.gradient-background-reverse {
+    background: linear-gradient(180deg, #d4e4f4, #ff5757);
+    padding: 50px;
+}
+
+.centered-content {
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.centered-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #1C244B;
+    margin-bottom: 20px;
+}
+
+.centered-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #324A6D;
+    margin-bottom: 45px;
+}
+
+.custom-image {
+    max-width: 100%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 256.215px;
+    width: 580px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.custom-image-one {
+    max-width: 100%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 256.215px;
+    width: 580px;
+    max-width: 100%;
+}
+
+.custom-image-two {
+    max-width: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 300px;
+    height: 256.215px;
+    width: 580px;
+    max-width: 100%;
+}
+
+.custom-button {
+    background-color: #ff5757;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.arrow-icon {
+    position: absolute;
+    font-size: 12px;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.achievement-box p {
+    font-family: "Poppins Light", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(33, 37, 41);
+    text-align: center;
+    word-spacing: 0px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.custom-image-above-header {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 511.719px;
+    width: 600px;
+    max-width: 100%;
+}
